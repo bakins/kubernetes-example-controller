@@ -1,0 +1,10 @@
+apiVersion: akins.org/v1alpha1
+kind: Heap
+metadata:
+  name: with-ingress
+spec: 
+  image: nginx
+  port: 80
+  host: somehost.akins.org
+
+

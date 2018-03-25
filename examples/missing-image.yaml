@@ -1,0 +1,5 @@
+apiVersion: akins.org/v1alpha1
+kind: Heap
+metadata:
+  name: missing-image
+spec: {}

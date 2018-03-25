@@ -1,0 +1,6 @@
+apiVersion: akins.org/v1alpha1
+kind: Heap
+metadata:
+  name: no-service
+spec: 
+  image: nginx

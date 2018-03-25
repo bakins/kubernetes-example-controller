@@ -1,0 +1,8 @@
+apiVersion: akins.org/v1alpha1
+kind: Heap
+metadata:
+  name: with-service
+spec: 
+  image: nginx
+  port: 80
+

@@ -1,0 +1,27 @@
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  name: heaps.akins.org
+spec:
+  group: akins.org
+  version: v1alpha1
+  names:
+    kind: Heap
+    plural: heaps
+    singular: heap
+  scope: Namespaced
+  validation:
+    openAPIV3Schema:
+      properties:
+        spec:
+          required:
+            - image
+          properties:
+            image:
+              type: string
+            replicas:
+              type: integer
+            host:
+              type: string
+            port:
+              type: integer
