@@ -108,7 +108,7 @@ go run *.go
 
 This will run the controller which will access the Kubernetes API using the local proxy.
 
-The controller itself is fairly simple.  It lists all heaps every 10 seconds and then acts on them. A real controller would watch the API and act as changes are made.  Once again, this was done as a demonstration and for simplicity. There is a more featureful [sample controller'(https://github.com/kubernetes/sample-controller) if you'd like to explore this more.
+The controller itself is fairly simple.  It lists all heaps every 10 seconds and then acts on them. A real controller would watch the API and act as changes are made.  Once again, this was done as a demonstration and for simplicity. There is a more featureful [sample controller](https://github.com/kubernetes/sample-controller) if you'd like to explore this more.
 
 ### Creating a Heap
 
